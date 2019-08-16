@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <h1>wangshushu 888666</h1>
+    <router-view></router-view>
+    <maintabbar></maintabbar>
   </div>
 </template>
 
 <script>
-
+import maintabbar from './components/context/Maintabbar/maintabbar'
 
 export default {
   name: 'app',
   components: {
-    
+    maintabbar
   }
 }
 </script>
